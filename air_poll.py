@@ -9,7 +9,6 @@ app = Flask(__name__)
 air_poll = load_model('best_model.h5')
 print(type(air_poll))
 
-a
 
 @app.route('/air', methods=['POST', 'GET'])
 def handle_data():
